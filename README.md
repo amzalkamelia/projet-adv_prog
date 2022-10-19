@@ -1,6 +1,6 @@
 # projet-adv_prog
 Outils choisis : 
-- StarUML \n
+- StarUML 
 Arguments -> Bonne représentation graphique du corps de l'application.
 - Flutter
 Arguments -> Code généré multiplateformes.
