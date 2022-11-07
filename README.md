@@ -5,9 +5,9 @@ Outils choisis :
 
 Arguments -> Bonne représentation graphique du corps de l'application.
 
-- Flutter
+- Kotlin
 
-Arguments -> Code généré multiplateformes.
+Arguments -> Nous sommes toutes familieres avec java.
 
 Diagramme UML (insert image)
 
