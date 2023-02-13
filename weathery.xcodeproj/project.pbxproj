@@ -40,7 +40,6 @@
 		32720424299985F700072F68 = {
 			isa = PBXGroup;
 			children = (
-				32EC2A67299ABD8C0024385B /* main.storyboard */,
 				3272042F299985F800072F68 /* weathery */,
 				3272042E299985F800072F68 /* Products */,
 			);
@@ -63,6 +62,7 @@
 				32720439299985F900072F68 /* Assets.xcassets */,
 				3272043B299985F900072F68 /* LaunchScreen.storyboard */,
 				3272043E299985F900072F68 /* Info.plist */,
+				32EC2A67299ABD8C0024385B /* main.storyboard */,
 			);
 			path = weathery;
 			sourceTree = "<group>";
