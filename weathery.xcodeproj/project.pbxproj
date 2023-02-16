@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324E665B299E772B00C4A48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324E665A299E772B00C4A48C /* Main.storyboard */; };
+		324E665F299E822D00C4A48C /* MeteoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E665E299E822D00C4A48C /* MeteoViewController.swift */; };
+		324E6661299E8D7900C4A48C /* PrefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E6660299E8D7900C4A48C /* PrefViewController.swift */; };
 		32720431299985F800072F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720430299985F800072F68 /* AppDelegate.swift */; };
 		32720433299985F800072F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720432299985F800072F68 /* SceneDelegate.swift */; };
 		32720435299985F800072F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720434299985F800072F68 /* ViewController.swift */; };
 		3272043A299985F900072F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32720439299985F900072F68 /* Assets.xcassets */; };
 		3272043D299985F900072F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3272043B299985F900072F68 /* LaunchScreen.storyboard */; };
-		32EC2A68299ABD8C0024385B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EC2A67299ABD8C0024385B /* Main.storyboard */; };
+		328BD29D299E767800B59375 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BD29C299E767800B59375 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		324E665A299E772B00C4A48C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = weathery/StoryBoard/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		324E665E299E822D00C4A48C /* MeteoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoViewController.swift; sourceTree = "<group>"; };
+		324E6660299E8D7900C4A48C /* PrefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefViewController.swift; sourceTree = "<group>"; };
 		3272042D299985F800072F68 /* weathery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weathery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32720430299985F800072F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32720432299985F800072F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -23,7 +29,7 @@
 		32720439299985F900072F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3272043C299985F900072F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3272043E299985F900072F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32EC2A67299ABD8C0024385B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		328BD29C299E767800B59375 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324E665C299E776500C4A48C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				328BD29C299E767800B59375 /* MainViewController.swift */,
+				32720434299985F800072F68 /* ViewController.swift */,
+				324E665E299E822D00C4A48C /* MeteoViewController.swift */,
+				324E6660299E8D7900C4A48C /* PrefViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		324E665D299E778100C4A48C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				32720430299985F800072F68 /* AppDelegate.swift */,
+				32720432299985F800072F68 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		32720424299985F700072F68 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +82,22 @@
 		3272042F299985F800072F68 /* weathery */ = {
 			isa = PBXGroup;
 			children = (
-				32720430299985F800072F68 /* AppDelegate.swift */,
-				32720432299985F800072F68 /* SceneDelegate.swift */,
-				32720434299985F800072F68 /* ViewController.swift */,
-				32720439299985F900072F68 /* Assets.xcassets */,
-				3272043B299985F900072F68 /* LaunchScreen.storyboard */,
-				32EC2A67299ABD8C0024385B /* Main.storyboard */,
 				3272043E299985F900072F68 /* Info.plist */,
+				324E665C299E776500C4A48C /* ViewController */,
+				324E665D299E778100C4A48C /* Base */,
+				32720439299985F900072F68 /* Assets.xcassets */,
+				328BD29E299E76A500B59375 /* Storyboard */,
 			);
 			path = weathery;
+			sourceTree = "<group>";
+		};
+		328BD29E299E76A500B59375 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3272043B299985F900072F68 /* LaunchScreen.storyboard */,
+				324E665A299E772B00C4A48C /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3272043D299985F900072F68 /* LaunchScreen.storyboard in Resources */,
-				32EC2A68299ABD8C0024385B /* Main.storyboard in Resources */,
 				3272043A299985F900072F68 /* Assets.xcassets in Resources */,
+				324E665B299E772B00C4A48C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324E665F299E822D00C4A48C /* MeteoViewController.swift in Sources */,
 				32720435299985F800072F68 /* ViewController.swift in Sources */,
 				32720431299985F800072F68 /* AppDelegate.swift in Sources */,
 				32720433299985F800072F68 /* SceneDelegate.swift in Sources */,
+				328BD29D299E767800B59375 /* MainViewController.swift in Sources */,
+				324E6661299E8D7900C4A48C /* PrefViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
