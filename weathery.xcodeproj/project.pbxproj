@@ -10,6 +10,8 @@
 		324E665B299E772B00C4A48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324E665A299E772B00C4A48C /* Main.storyboard */; };
 		324E665F299E822D00C4A48C /* MeteoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E665E299E822D00C4A48C /* MeteoViewController.swift */; };
 		324E6661299E8D7900C4A48C /* PrefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E6660299E8D7900C4A48C /* PrefViewController.swift */; };
+		324E666429A15EB400C4A48C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 324E666329A15EB400C4A48C /* Alamofire */; };
+		324E666629A163CC00C4A48C /* DataMeteoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E666529A163CC00C4A48C /* DataMeteoFile.swift */; };
 		32720431299985F800072F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720430299985F800072F68 /* AppDelegate.swift */; };
 		32720433299985F800072F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720432299985F800072F68 /* SceneDelegate.swift */; };
 		32720435299985F800072F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720434299985F800072F68 /* ViewController.swift */; };
@@ -22,6 +24,7 @@
 		324E665A299E772B00C4A48C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = weathery/StoryBoard/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		324E665E299E822D00C4A48C /* MeteoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoViewController.swift; sourceTree = "<group>"; };
 		324E6660299E8D7900C4A48C /* PrefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefViewController.swift; sourceTree = "<group>"; };
+		324E666529A163CC00C4A48C /* DataMeteoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMeteoFile.swift; sourceTree = "<group>"; };
 		3272042D299985F800072F68 /* weathery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weathery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32720430299985F800072F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32720432299985F800072F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324E666429A15EB400C4A48C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +91,7 @@
 				324E665D299E778100C4A48C /* Base */,
 				32720439299985F900072F68 /* Assets.xcassets */,
 				328BD29E299E76A500B59375 /* Storyboard */,
+				324E666529A163CC00C4A48C /* DataMeteoFile.swift */,
 			);
 			path = weathery;
 			sourceTree = "<group>";
@@ -116,6 +121,9 @@
 			dependencies = (
 			);
 			name = weathery;
+			packageProductDependencies = (
+				324E666329A15EB400C4A48C /* Alamofire */,
+			);
 			productName = weathery;
 			productReference = 3272042D299985F800072F68 /* weathery.app */;
 			productType = "com.apple.product-type.application";
@@ -144,6 +152,9 @@
 				Base,
 			);
 			mainGroup = 32720424299985F700072F68;
+			packageReferences = (
+				324E666229A15EB400C4A48C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3272042E299985F800072F68 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -174,6 +185,7 @@
 				324E665F299E822D00C4A48C /* MeteoViewController.swift in Sources */,
 				32720435299985F800072F68 /* ViewController.swift in Sources */,
 				32720431299985F800072F68 /* AppDelegate.swift in Sources */,
+				324E666629A163CC00C4A48C /* DataMeteoFile.swift in Sources */,
 				32720433299985F800072F68 /* SceneDelegate.swift in Sources */,
 				328BD29D299E767800B59375 /* MainViewController.swift in Sources */,
 				324E6661299E8D7900C4A48C /* PrefViewController.swift in Sources */,
@@ -386,6 +398,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		324E666229A15EB400C4A48C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		324E666329A15EB400C4A48C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 324E666229A15EB400C4A48C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 32720425299985F700072F68 /* Project object */;
 }
