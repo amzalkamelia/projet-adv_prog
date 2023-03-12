@@ -17,6 +17,8 @@
 		32720435299985F800072F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720434299985F800072F68 /* ViewController.swift */; };
 		3272043A299985F900072F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32720439299985F900072F68 /* Assets.xcassets */; };
 		3272043D299985F900072F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3272043B299985F900072F68 /* LaunchScreen.storyboard */; };
+		327B7FF729BD24FA008FBCDB /* PreferencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B7FF629BD24FA008FBCDB /* PreferencesTableViewCell.swift */; };
+		327B7FF929BD325F008FBCDB /* SettingsPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327B7FF829BD325F008FBCDB /* SettingsPreferenceViewController.swift */; };
 		328BD29D299E767800B59375 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BD29C299E767800B59375 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		32720439299985F900072F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3272043C299985F900072F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3272043E299985F900072F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327B7FF629BD24FA008FBCDB /* PreferencesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewCell.swift; sourceTree = "<group>"; };
+		327B7FF829BD325F008FBCDB /* SettingsPreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPreferenceViewController.swift; sourceTree = "<group>"; };
 		328BD29C299E767800B59375 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +58,8 @@
 				32720434299985F800072F68 /* ViewController.swift */,
 				324E665E299E822D00C4A48C /* MeteoViewController.swift */,
 				324E6660299E8D7900C4A48C /* PrefViewController.swift */,
+				327B7FF629BD24FA008FBCDB /* PreferencesTableViewCell.swift */,
+				327B7FF829BD325F008FBCDB /* SettingsPreferenceViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -183,11 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				324E665F299E822D00C4A48C /* MeteoViewController.swift in Sources */,
+				327B7FF929BD325F008FBCDB /* SettingsPreferenceViewController.swift in Sources */,
 				32720435299985F800072F68 /* ViewController.swift in Sources */,
 				32720431299985F800072F68 /* AppDelegate.swift in Sources */,
 				324E666629A163CC00C4A48C /* DataMeteoFile.swift in Sources */,
 				32720433299985F800072F68 /* SceneDelegate.swift in Sources */,
 				328BD29D299E767800B59375 /* MainViewController.swift in Sources */,
+				327B7FF729BD24FA008FBCDB /* PreferencesTableViewCell.swift in Sources */,
 				324E6661299E8D7900C4A48C /* PrefViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

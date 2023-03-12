@@ -19,6 +19,7 @@ class MeteoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "wallpaperEiffelTower")!)
         selectPreferencesButtonView.layer.cornerRadius = 30
         selectPreferencesButtonView.isUserInteractionEnabled = true
         let gesture = UITapGestureRecognizer(target: self, action: #selector(goToPreferences))
