@@ -48,7 +48,7 @@ class SettingsPreferenceViewController: UIViewController {
             let value = Int(maximumValueLabel.text!)! + 1
             maximumValueLabel.text = "\(value)"
         }
-        stepperMinValue = stepper.value
+        stepperMaxValue = stepper.value
     }
     
     func getValueMin() -> Double {
@@ -68,8 +68,9 @@ class SettingsPreferenceViewController: UIViewController {
         UserDefaults.standard.set(minVal, forKey: idPref+"min")
         UserDefaults.standard.set(maxVal, forKey: idPref+"max")
         
-        print(minVal)
-        print(maxVal)
+        if idPref == "Temperature" {
+            AlertManager.shared.checkTemperature()
+        }
         
         self.dismiss(animated: true)
     }

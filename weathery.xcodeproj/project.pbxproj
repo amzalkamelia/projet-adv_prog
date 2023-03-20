@@ -12,6 +12,7 @@
 		324E6661299E8D7900C4A48C /* PrefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E6660299E8D7900C4A48C /* PrefViewController.swift */; };
 		324E666429A15EB400C4A48C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 324E666329A15EB400C4A48C /* Alamofire */; };
 		324E666629A163CC00C4A48C /* DataMeteoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E666529A163CC00C4A48C /* DataMeteoFile.swift */; };
+		326C213429C9034B00F6B1B4 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326C213329C9034B00F6B1B4 /* AlertManager.swift */; };
 		32720431299985F800072F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720430299985F800072F68 /* AppDelegate.swift */; };
 		32720433299985F800072F68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720432299985F800072F68 /* SceneDelegate.swift */; };
 		32720435299985F800072F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32720434299985F800072F68 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		324E665E299E822D00C4A48C /* MeteoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoViewController.swift; sourceTree = "<group>"; };
 		324E6660299E8D7900C4A48C /* PrefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefViewController.swift; sourceTree = "<group>"; };
 		324E666529A163CC00C4A48C /* DataMeteoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMeteoFile.swift; sourceTree = "<group>"; };
+		326C213329C9034B00F6B1B4 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		3272042D299985F800072F68 /* weathery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weathery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32720430299985F800072F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32720432299985F800072F68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		326C213229C9032300F6B1B4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				326C213329C9034B00F6B1B4 /* AlertManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		32720424299985F700072F68 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				3272043E299985F900072F68 /* Info.plist */,
+				326C213229C9032300F6B1B4 /* Manager */,
 				324E665C299E776500C4A48C /* ViewController */,
 				324E665D299E778100C4A48C /* Base */,
 				32720439299985F900072F68 /* Assets.xcassets */,
@@ -190,6 +201,7 @@
 			files = (
 				324E665F299E822D00C4A48C /* MeteoViewController.swift in Sources */,
 				327B7FF929BD325F008FBCDB /* SettingsPreferenceViewController.swift in Sources */,
+				326C213429C9034B00F6B1B4 /* AlertManager.swift in Sources */,
 				32720435299985F800072F68 /* ViewController.swift in Sources */,
 				32720431299985F800072F68 /* AppDelegate.swift in Sources */,
 				324E666629A163CC00C4A48C /* DataMeteoFile.swift in Sources */,

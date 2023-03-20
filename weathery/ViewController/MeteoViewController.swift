@@ -64,6 +64,7 @@ class MeteoViewController: UIViewController {
     }
     
     func setCurrentMeteo(meteo : MeteoData){
+        AlertManager.shared.temperature = Double(meteo.current.tempC)
         tempLabel.text = String(meteo.current.tempC)
         precipLabel.text = "Precipitation \(meteo.current.precipMm) mm"
         humidLabel.text = "Humidity \(meteo.current.humidity) %"

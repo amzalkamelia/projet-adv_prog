@@ -29,6 +29,10 @@ extension PrefViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "preferencesCell", for: indexPath) as! PreferencesTableViewCell
         cell.titleLabel.text = preferencesName[indexPath.row]
+        
+        let switchStatus = UserDefaults.standard.bool(forKey: "\(preferencesName[indexPath.row])_switch")
+        cell.preferencesSwitch.isOn = switchStatus
+        cell.idPreferences = preferencesName[indexPath.row]
         return cell
     }
     
