@@ -9,19 +9,24 @@ Outils choisis :
 
 Arguments -> Bonne représentation graphique du corps de l'application.
 
-- Kotlin
+- Swift (XCode)
 
-Arguments -> Nous sommes toutes familieres avec java, possibilite d'avoir un apercu de l'application via AndroidStudio
+Arguments -> - Nous sommes toutes familieres avec java et nous avons des echos de similarités entre les deux langages
+             - Possibilite d'avoir un apercu de l'application grace aux storyboards et le simulateur
+             - Les cours nous ont donné envie de découvrir ce nouveau langage
+             - Assez simple d'utilisation
 
 Diagramme UML (insert image)
 
-Missions de la semaine et Organisation du projet :
-
-- Voir comment coder en flutter et si c'est vraimemt ce qu'on va utiliser
-- Faire une representation graphique de ce a quoi nous voudrions que la page de garde de l'appli ressemble -> done
-- Eventuellement commencer cette partie de l'application
-- Se renseigner sur comment on doit faire notre rapport
-- Demander au prof si les notifs sont dans l'appli ou automatiques en fct des temperatures... -> en dehors de l'appli
 
 Difficultes rencontrees :
+- Appréhender un nouveau langage
+- Travail sur une seule machine
+- Prend beaucoup d'espace dans l'appareil
+
+Notions apprises :
+- Montée en compétences dans un nouveau langage
+- Apprentissage de nouvelles notions : Data Type, Async, Optional
+- Une premiere expérience dans le développement d'une application mobile
+- Utilisation de nouveaux outils et applications : StarUML, Xcode
 
